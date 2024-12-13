@@ -18,7 +18,7 @@ for(i in array) {
 
 fun bubbleSort(array: IntArray) {
     for(i in 0 until array.size - 1) {
-        for(j in 0 until array.size - i - 1) {
+        for(j in 0 until array.size - i - 1) { // n1
             // if current value is greater than next one, need to switch
             // to reverse order, switch > to <
             if(array[j] > array[j + 1]) {
@@ -31,3 +31,11 @@ fun bubbleSort(array: IntArray) {
     }
 }
 
+
+/* NOTES
+
+Last Index Accessed: array.size - 2
+Use Cases:
+When you need to access elements and their subsequent elements (e.g., pairwise operations).
+When you want to avoid accessing the last element of the array.
+ */
