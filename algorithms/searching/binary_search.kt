@@ -3,7 +3,6 @@
  - fantastic for searching in a large data with a runtime complexity of O (log n) which is the second most optimal performance behind constant time O (1).
  - not much efficient working with small data set
  */
- */
 
 
 val array = IntArray(10) { it } // Initialize array with values 0 to 99
