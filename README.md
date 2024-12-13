@@ -1,3 +1,4 @@
 ## INSTRUCTION TO RUN CODE:
-### On Android Studio, run this in a scratch.kts by creating a new scratch.kts at file > new file > scratch file > kotlin. If already created, find this file at project directory Scratches
-### Alternative, you can run on the online playground here: https://play.kotlinlang.org/
+### Create a new scratch.kts file in Android Studio by navigating to File > New File > Scratch File > Kotlin. If you have already created this file, you can find it in the project directory under Scratches.
+
+### Alternatively, you can run your Kotlin code on the online playground available at https://play.kotlinlang.org/.
