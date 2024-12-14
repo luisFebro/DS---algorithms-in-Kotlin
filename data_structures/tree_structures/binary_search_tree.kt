@@ -1,11 +1,15 @@
 /*  DEFINITION:
-organized
+a tree data structure, where each node is greater than it's left child, but less than it's right
+
 
  */
 
 /* CARACTERISTICS
 - a tree WITH no more than two children
+- benefit: easy to locate a node when tehy are in this order
 - The main difference between a binary tree and a binary search tree (BST) is that a BST enforces a strict ordering on its nodes, while a binary tree does not. Left nodes are lesser than the parent. Right nodes are higher than parent
+ time complexity: best case O(log n) / worst case O(n)
+ space complexity: O(n)
  */
 
 class Node(private val value: Int) {

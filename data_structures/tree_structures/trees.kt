@@ -1,6 +1,11 @@
 /*  DEFINITION:
 a non-linear data structure where nodes are organized in a hierarchy
 
+
+TREE TRAVERSAL
+In-order: left -> root -> right
+Post-order: left -> right -> root
+pre-order: root -> left -> right (creates a copy of the tree)
  */
 
 /* CARACTERISTICS
