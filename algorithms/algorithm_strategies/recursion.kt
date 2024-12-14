@@ -1,10 +1,9 @@
 /*
 DEFINITION:
 apply the result of a procedure, to a procedure. A recursive method calls itself.
-can be a substitute for iteration.
+can be a substitute for iteration. ITERATION = loops, faster speed, more code | RECURSION = calls itself, slower speed, less code
 divide a problem into sub-problems of the same type as the original.
 commonly used with advanced sorting algorithms and navigating trees.
-
  */
 /* CARACTERISTICS
 - easier to read/write
