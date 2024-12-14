@@ -39,14 +39,16 @@ class Graph(private val size: Int) {
     }
 
     fun print() {
-        println("  ")
-        for(node in nodes) {
-            println("${node.data} ")
+        print("  ")
+
+        for (node in nodes) {
+            print("${node.data} ")
         }
+
         println()
 
         for (i in matrix.indices) {
-            println("${nodes[i].data} ")
+            print("${nodes[i].data} ")
             for (j in 0 until matrix[i].size) {
                 print("${matrix[i][j]} ")
             }
